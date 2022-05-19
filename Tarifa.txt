@@ -1,0 +1,200 @@
+\documentclass{article}
+
+% Language setting
+% Replace `english' with e.g. `spanish' to change the document language
+\usepackage[english]{babel}
+
+% Set page size and margins
+% Replace `letterpaper' with `a4paper' for UK/EU standard size
+\usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+
+\title{Data Structures and Algorithms in Pen-based 
+Computing Environmentsr}
+\author{Victor Adamchik}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Data structure visualization (or animation) has 
+been studied for more than twenty years, though existing 
+systems have not gained wide acceptance in the classroom 
+by students and their instructors. The main reason is that 
+animation preparation is too time consuming. A more 
+technical reason is that when a particular data structure is 
+encoded into an animation, it does not have the flexibility 
+often needed in a classroom setting. There is also a 
+pedagogical reason: a number of prior studies have found 
+that using algorithm visualization in a classroom had no 
+significant effect on student’s performance. We believe that 
+the Tablet PC, empowered by digital ink, will challenge the 
+current boundaries imposed upon algorithm animation. One 
+of the potential advantages of this new technology is that it 
+allows the expression and exchange of ideas in an 
+interactive environment using sketch based interfaces. In 
+this paper we discuss teaching and learning Tablet PC 
+based environment in which students using a stylus would 
+draw a particular instance of a data structure and then 
+invoke an algorithm to animate over this data structure. A 
+completely natural way of drawing using a digital pen will 
+generate a data structure model, which (once it is checked 
+for correctness) will serve as a basis for execution of 
+various computational algorithms.
+\end{abstract}
+
+\section{Introduction}
+
+We are entering a new era of teaching, learning 
+and computing. With an abundance of useful information 
+available on any subject, anywhere, anytime, and on any 
+device, the challenge (faced by all us, the educators) is to 
+create a teaching/learning environment that is mobile, smart, 
+personable, and easy to use. Next generation's learning 
+tools will require that we receive only the information we 
+need at the right time. Future applications will also require 
+natural interfaces that allow students (as well as instructors) 
+to interact with any computing device with ease. 
+The time for having “problem solving 
+environments” in the classroom has emerged. A problem 
+solving environment is an integrated computational system 
+for solving problems in a specific application domain 
+[1]. Such environments, in general, should enable the user 
+to input and work on problems in a manner that is natural to 
+the problem domain. The animation data structures and 
+algorithms integrated with a natural pen-based interface is 
+one of the most valuable environments in the classroom 
+setting. 
+Intuitively we, the computer science educators, 
+believe that algorithm animation is helpful in teaching 
+advanced computer science concepts. Students often study 
+in either of the following two distinct modes according to 
+their cognitive learning style. 
+The first study mode is the initial learning of an 
+algorithm and the associated data structure. In this mode 
+students simply step through an algorithm to attain a 
+preliminary grasp of the algorithm. This process of learning 
+can be supported either by textual algorithm description or 
+graphical algorithm animation. Some studies [2] have 
+shown little improvement in student performance (mostly 
+on analytical questions) due to the use of animations in 
+teaching data structures and algorithms. Another study [3] 
+has shown that simply viewing animation in a classroom setting did not significantly improve students’ 
+understanding. 
+The second study mode is when students are 
+active participants of the learning process. An example of 
+this study mode is when students test themselves in 
+preparation for an exam. In this mode a data structure 
+visualization system must provide a high level of 
+interactivity. It would be most helpful for students to have a 
+system that will automatically verify the correctness of the 
+student’s manual algorithm execution. Although algorithm 
+animation has been studied for more than twenty years, the 
+systems that have been proposed have not gained a wide 
+acceptance in the classroom by students and their 
+instructors. The reason is that most of the evaluations 
+indicate that algorithm animation has no significant effect 
+when students are just observers. We all know that students 
+must be mentally engaged in order to learn. Therefore, we 
+strongly believe that any new electronic educational 
+technology integrated with a Tablet PC environment will 
+have a fundamental influence on education in general. 
+One of the principal aims of our study is to 
+investigate the suitability of a Tablet PC environment in 
+teaching data structures and algorithms. In this environment 
+sketching is an integral part of computer science 
+exploration. It allows the expression and exchange of ideas 
+in a highly interactive atmosphere. Using the pen-based 
+gesture interface, we will promote students’ intuition for 
+problem solving and algorithmic thinking.
+.
+
+\section{Categories and Subject Descriptors}
+H.5.3 [Group and Organization Interfaces]: User Group 
+and Organization Interfaces – collaborative computing. 
+K.3.1 [Computers and Education]: Computer Uses in 
+Education – collaborative learning, computer-assisted 
+instruction. 
+General Terms
+Algorithms, Visualization, Design, Human Factors, 
+Keywords
+Programming education, natural interfaces
+
+
+
+
+
+
+\begin{figure}
+\centering
+\includegraphics[width=0.7\textwidth]{OIP.jpg}
+\caption{\label{fig:Data Structure and Algorithm}Data Structure and Algorithm}
+\end{figure}
+
+
+
+
+\begin{tabular}{|l|c|r|}
+\hline
+ sub    &  roll\\
+ \hline
+    DS & 82\\
+     \hline
+    OOP & 80\\
+     \hline
+    Eelectronics & 87\\
+     \hline
+    English & 90\\
+     \hline
+    EEE & 92\\
+     \hline
+    ICT & 89\\
+     \hline
+    Physics & 90\\ \hline
+    Chemistry & 90\\
+     \hline
+    Biology & 90\\
+    \hline
+\end{tabular}
+
+
+\section{Mathematics}
+
+\begin{equation}
+(a+b)^3=a^3+3a^2b+3ab^2+b^3
+\end{equation}
+
+
+
+\section{References List}
+
+ [1] From "Computer as Thinker/Doer: Problem-Solving 
+Environments for Computational Science" by S. 
+Gallopoulos, E. Houstis and J. Rice (IEEE 
+Computational Science and Engineering, Summer 
+1994). 
+
+
+[2] J. Stasko, A. Badre, C. Lewis, Do Algorithm 
+Animations Assist Learning? An Empirical Study and 
+Analysis, Proceedings of the ITERCHI Conference
+
+
+[1] From "Computer as Thinker/Doer: Problem-Solving 
+Environments for Computational Science" by S. 
+Gallopoulos, E. Houstis and J. Rice (IEEE 
+Computational Science and Engineering, Summer 
+1994). 
+
+
+[2] J. Stasko, A. Badre, C. Lewis, Do Algorithm 
+Animations Assist Learning? An Empirical Study and 
+Analysis, Proceedings of the ITERCHI Conference.
+
+\bibliography{sample}
+
+\end{document}
